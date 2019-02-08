@@ -6,7 +6,7 @@ from create_template import render_template
 
 def template_from_csv(csv_path):
     """Generate files for all robot listed in csv. All parameter taken from csv"""
-
+    csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), csv_path)
     with open(csv_path, 'r') as f:
         reader = csv.reader(f)
         headers = next(reader)
