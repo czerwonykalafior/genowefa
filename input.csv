@@ -1,0 +1,4 @@
+project_name,robot_name,url,template_filename
+gdf_big_fish,gdf_amazon,https://www.amazon.com/,json_robot_template
+gdf_big_fish,gdf_apple,https://www.apple.com/,json_robot_template
+gdf_small_fish,gdf_puccinos,http://www.puccinosworldwide.com/,json_robot_template
